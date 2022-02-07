@@ -81,6 +81,9 @@ body {
     padding: 0 20px;
     background: url(./assets/Ellipse.png) no-repeat 0;
   }
+  &.dot.color.black {
+    color: #000000;
+  }
   &.order {
     color: #000000;
     background: url(./assets/greenellipse.png) no-repeat 5px;
@@ -148,6 +151,12 @@ body {
     width: 184px;
     text-align: center;
   }
+  &.display {
+    padding-bottom: 0px;
+  }
+  &.short.color {
+    color: #424242;
+  }
 }
 .familytext {
   width: 495px;
@@ -173,6 +182,9 @@ body {
     padding-bottom: 65px;
     font-size: 56px;
     line-height: 60px;
+  }
+  &.color {
+    color: #000000;
   }
 }
 .cleaner {
@@ -237,6 +249,10 @@ body {
   &.display.fast {
     margin-right: 30px;
   }
+  &.sheep {
+    padding-bottom: 40px;
+    text-align: left;
+  }
 }
 .explonation {
   display: flex;
@@ -260,7 +276,7 @@ body {
   width: 100%;
   height: 800px;
 }
-.titlesheep {
+.titleslider {
   padding-top: 84px;
   text-align: center;
 }
@@ -269,7 +285,7 @@ body {
   display: flex;
   justify-content: left;
   align-items: center;
-  padding-top: 72px;
+  padding-top: 20px;
   &.item {
     position: relative;
   }
@@ -291,4 +307,49 @@ body {
   &.item:nth-child(1) {
     opacity: 0.5;
   }
+}
+.titlesheep {
+  text-align: left;
+
+  padding: 80px 0 0 90px;
+}
+.tittlescroll {
+  display: flex;
+  justify-content: space-between;
+  margin: 105px 0 0 159px;
+  width: 1010px;
+}
+
+.sliderscroll {
+  position: absolute;
+  right: 262px;
+  bottom: 5px;
+}
+.scroll {
+  position: relative;
+}
+#block6 {
+  background: url(./assets/SCREEN7.jpg);
+  width: 100%;
+  height: 800px;
+}
+.blockdisplay {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 167px;
+  padding-left: 151px;
+}
+.control {
+  padding-top: 30px;
+}
+.store {
+  padding-top: 57px;
+  width: 390px;
+  display: flex;
+  justify-content: space-between;
+}
+#block7 {
+  background: url(./assets/SCREEN8.jpg);
+  width: 100%;
+  height: 800px;
 }

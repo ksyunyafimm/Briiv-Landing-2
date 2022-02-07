@@ -92,6 +92,10 @@ body {
   background: url(./assets/Ellipse.png) no-repeat 0;
 }
 
+.link.dot.color.black {
+  color: #000000;
+}
+
 .link.order {
   color: #000000;
   background: url(./assets/greenellipse.png) no-repeat 5px;
@@ -169,6 +173,14 @@ body {
   text-align: center;
 }
 
+.paragraph.display {
+  padding-bottom: 0px;
+}
+
+.paragraph.short.color {
+  color: #424242;
+}
+
 .familytext {
   width: 495px;
 }
@@ -197,6 +209,10 @@ body {
   padding-bottom: 65px;
   font-size: 56px;
   line-height: 60px;
+}
+
+.tittlewrap.color {
+  color: #000000;
 }
 
 .cleaner {
@@ -281,6 +297,11 @@ body {
   margin-right: 30px;
 }
 
+.namestext.sheep {
+  padding-bottom: 40px;
+  text-align: left;
+}
+
 .explonation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -311,7 +332,7 @@ body {
   height: 800px;
 }
 
-.titlesheep {
+.titleslider {
   padding-top: 84px;
   text-align: center;
 }
@@ -327,7 +348,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 72px;
+  padding-top: 20px;
 }
 
 .slider.item {
@@ -356,5 +377,69 @@ body {
 
 .slider.item:nth-child(1) {
   opacity: 0.5;
+}
+
+.titlesheep {
+  text-align: left;
+  padding: 80px 0 0 90px;
+}
+
+.tittlescroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 105px 0 0 159px;
+  width: 1010px;
+}
+
+.sliderscroll {
+  position: absolute;
+  right: 262px;
+  bottom: 5px;
+}
+
+.scroll {
+  position: relative;
+}
+
+#block6 {
+  background: url(./assets/SCREEN7.jpg);
+  width: 100%;
+  height: 800px;
+}
+
+.blockdisplay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 167px;
+  padding-left: 151px;
+}
+
+.control {
+  padding-top: 30px;
+}
+
+.store {
+  padding-top: 57px;
+  width: 390px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#block7 {
+  background: url(./assets/SCREEN8.jpg);
+  width: 100%;
+  height: 800px;
 }
 /*# sourceMappingURL=style.css.map */
