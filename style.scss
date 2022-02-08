@@ -72,6 +72,7 @@ body {
     background: url(./assets/circle.png) no-repeat 20px;
     padding: 11px 18px 11px 43px;
   }
+
   &.ellipse {
     background: url(./assets/Ellipselink.png) no-repeat;
     padding: 51px 53px 66px;
@@ -253,6 +254,11 @@ body {
     padding-bottom: 40px;
     text-align: left;
   }
+  &.sheep.color {
+    color: #cbcbcb;
+    text-decoration: line-through;
+    font-weight: 300;
+  }
 }
 .explonation {
   display: flex;
@@ -265,6 +271,9 @@ body {
   margin: 63px auto 0;
   width: 136px;
   position: relative;
+  &.display {
+    margin: 70px 0 0 45px;
+  }
 }
 .greenvector {
   position: absolute;
@@ -329,7 +338,8 @@ body {
   position: relative;
 }
 #block6 {
-  background: url(./assets/SCREEN7.jpg);
+  background: url(./assets/SCREEN7.jpg) no-repeat;
+  background-size: cover;
   width: 100%;
   height: 800px;
 }
@@ -337,7 +347,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding-top: 167px;
-  padding-left: 151px;
+  padding-left: 104px;
 }
 .control {
   padding-top: 30px;
@@ -349,7 +359,49 @@ body {
   justify-content: space-between;
 }
 #block7 {
-  background: url(./assets/SCREEN8.jpg);
+  background: url(./assets/SCREEN8.jpg) no-repeat;
+  background-size: cover;
   width: 100%;
   height: 800px;
+}
+.orderbriiv {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 164px;
+}
+.price {
+  display: flex;
+  width: 310px;
+  justify-content: space-between;
+}
+.secondcolumn {
+  padding: 25px 105px 0 0;
+}
+#block8 {
+  background-color: #000000;
+  width: 100%;
+  height: 300px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+}
+.column1 {
+  width: 440px;
+}
+.social {
+  display: flex;
+  width: 128px;
+  justify-content: space-between;
+  padding-top: 24px;
+}
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  width: 210px;
+  padding-top: 100px;
+}
+.indent {
+  padding-top: 20px;
 }

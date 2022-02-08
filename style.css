@@ -302,6 +302,12 @@ body {
   text-align: left;
 }
 
+.namestext.sheep.color {
+  color: #cbcbcb;
+  text-decoration: line-through;
+  font-weight: 300;
+}
+
 .explonation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -318,6 +324,10 @@ body {
   margin: 63px auto 0;
   width: 136px;
   position: relative;
+}
+
+.order.display {
+  margin: 70px 0 0 45px;
 }
 
 .greenvector {
@@ -406,7 +416,8 @@ body {
 }
 
 #block6 {
-  background: url(./assets/SCREEN7.jpg);
+  background: url(./assets/SCREEN7.jpg) no-repeat;
+  background-size: cover;
   width: 100%;
   height: 800px;
 }
@@ -419,7 +430,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-top: 167px;
-  padding-left: 151px;
+  padding-left: 104px;
 }
 
 .control {
@@ -438,8 +449,79 @@ body {
 }
 
 #block7 {
-  background: url(./assets/SCREEN8.jpg);
+  background: url(./assets/SCREEN8.jpg) no-repeat;
+  background-size: cover;
   width: 100%;
   height: 800px;
+}
+
+.orderbriiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 164px;
+}
+
+.price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 310px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.secondcolumn {
+  padding: 25px 105px 0 0;
+}
+
+#block8 {
+  background-color: #000000;
+  width: 100%;
+  height: 300px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 24px;
+}
+
+.column1 {
+  width: 440px;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 128px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 24px;
+}
+
+.copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 210px;
+  padding-top: 100px;
+}
+
+.indent {
+  padding-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */
