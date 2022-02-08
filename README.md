@@ -7,4 +7,4 @@
 
 > Адаптивная верстка под мобильное устройство в разработке
 
-![Main Page](./assets/Main Page.png)
+![Main Page](./assets/MainPage.png)
